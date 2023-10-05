@@ -1,14 +1,9 @@
-# Dependencies
-* Pandoc
-* Poetry
-* Python 3.11
-
-## Scripts
+# Установка зависимостей
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+./dependencies.ps1
 ```
-# Initial setup
+# Вход в рабочее окружение
 ```commandline
-poetry install
 poetry shell
 ```
