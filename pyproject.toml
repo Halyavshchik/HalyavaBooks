@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "HalyavaBooks"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.*"
+PySide6 = "6.5.2"
+requests = "2.31.0"
+beautifulsoup4 = "4.12.2"
+pyinstaller = "6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
