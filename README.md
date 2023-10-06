@@ -21,7 +21,7 @@
 * Python
 * PySide6
 * Requests
-* BeatifulSoup
+* BeautifulSoup
 * Yandex API
 
 # Разворачивание рабочего окружения
