@@ -21,11 +21,6 @@ if (-not $isPythonInstalled) {
  $install += " python311"
 }
 
-$isPandocInstalled = Test-CommandExists marp.exe
-if (-not $isPandocInstalled) {
- $install += " marp"
-}
-
 $isPoetryInstalled = Test-CommandExists poetry.exe
 if (-not $isPoetryInstalled) {
  $install += " poetry"
